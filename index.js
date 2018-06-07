@@ -11,7 +11,7 @@ const client = new RemoteInstance({
 });
 
 console.log(client);
-
+console.log('hiiiiii');
 client.getItems('properties_1')
   .then(res => console.log(res))
   .catch(err => console.log(err));
